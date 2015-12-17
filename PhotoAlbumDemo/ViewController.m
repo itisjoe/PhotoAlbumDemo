@@ -71,7 +71,7 @@
     // 取得編輯後的圖片 UIImage
     UIImage *img = [info objectForKey:UIImagePickerControllerEditedImage];
     if (img == nil) {
-        // 如果沒有編輯 則是取得原始拍照的照片 UIImage
+        // 如果沒有編輯 則是取得原始相簿的照片 UIImage
         img = [info objectForKey:UIImagePickerControllerOriginalImage];
     }
     
